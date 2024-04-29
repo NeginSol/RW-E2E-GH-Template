@@ -1,0 +1,90 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">f31d8d7a-7536-4ac8-9c96-fde6ecda4d0a</item>
+    <item name="Name" type_name="gh_string" type_code="10">Cluster</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="7">
+        <item name="ClusterDocument" type_name="gh_bytearray" type_code="20">
+          <stream length="2480">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</stream>
+        </item>
+        <item name="Description" type_name="gh_string" type_code="10">Contains a cluster of Grasshopper components</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">2a72a398-b878-4f18-8f44-6b400396526b</item>
+        <item name="Name" type_name="gh_string" type_code="10">Cluster</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Cluster</item>
+        <item name="PreviewDocument" type_name="gh_bool" type_code="1">false</item>
+      </items>
+      <chunks count="4">
+        <chunk name="Author">
+          <items count="5">
+            <item name="Address" type_name="gh_string" type_code="10">Oststraße 58
+22844 Norderstedt</item>
+            <item name="Company" type_name="gh_string" type_code="10">aeditive GmbH</item>
+            <item name="Copyright" type_name="gh_string" type_code="10">aeditive GmbH</item>
+            <item name="Name" type_name="gh_string" type_code="10">Hendrik Lindemann</item>
+            <item name="Website" type_name="gh_string" type_code="10">www.aeditive.de</item>
+          </items>
+        </chunk>
+        <chunk name="ParamMap">
+          <items count="3">
+            <item name="Count" type_name="gh_int32" type_code="3">1</item>
+            <item name="Key" index="0" type_name="gh_guid" type_code="9">b3b56507-6ba2-4ca6-9e34-aaf2dbaf6578</item>
+            <item name="Value" index="0" type_name="gh_guid" type_code="9">36e8537f-3f69-4894-8a5f-49da6627b550</item>
+          </items>
+        </chunk>
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>35705</X>
+              <Y>11180</Y>
+              <W>80</W>
+              <H>59</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>35719</X>
+              <Y>11210</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="ParameterData">
+          <items count="3">
+            <item name="InputCount" type_name="gh_int32" type_code="3">0</item>
+            <item name="OutputCount" type_name="gh_int32" type_code="3">1</item>
+            <item name="OutputId" index="0" type_name="gh_guid" type_code="9">9fe6fd0d-de26-473a-bb30-5ec95cb4775a</item>
+          </items>
+          <chunks count="1">
+            <chunk name="OutputParam" index="0">
+              <items count="7">
+                <item name="Access" type_name="gh_int32" type_code="3">1</item>
+                <item name="Description" type_name="gh_string" type_code="10">KUKA|prc command containing an AXIS movement</item>
+                <item name="InstanceGuid" type_name="gh_guid" type_code="9">b3b56507-6ba2-4ca6-9e34-aaf2dbaf6578</item>
+                <item name="Name" type_name="gh_string" type_code="10">KUKA|prc Command</item>
+                <item name="NickName" type_name="gh_string" type_code="10">R2 Safty</item>
+                <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+                <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Attributes">
+                  <items count="2">
+                    <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                      <X>35734</X>
+                      <Y>11182</Y>
+                      <W>49</W>
+                      <H>55</H>
+                    </item>
+                    <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                      <X>35758.5</X>
+                      <Y>11209.5</Y>
+                    </item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

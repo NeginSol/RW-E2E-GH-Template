@@ -1,0 +1,528 @@
+<chunk name="Object" index="0">
+  <items count="3">
+    <item name="GUID" type_name="gh_guid" type_code="9">c5d49b97-d1fc-4a11-a1de-0db4530c919b</item>
+    <item name="Lib" type_name="gh_guid" type_code="9">d45b0aa7-fa27-4b91-3a40-b9f60d192781</item>
+    <item name="Name" type_name="gh_string" type_code="10">Linear Axis Solver</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="6">
+        <item name="Description" type_name="gh_string" type_code="10">Optimizes the tool path for linear axis and axis 6</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">8bfe82e4-41b5-48f3-b4fd-2034cfde71ef</item>
+        <item name="Name" type_name="gh_string" type_code="10">Linear Axis Solver</item>
+        <item name="NickName" type_name="gh_string" type_code="10">L.A.Sol.</item>
+        <item name="defaultPath" type_name="gh_doublearray" type_code="21">
+          <stream length="960">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoJmZGEAAAADAzGxEQAAAAAAAAPA/AAAAoJmZGEAAAADAzGxEQAAAAAAAAABAAAAAYFaHGEAAAADgzGxEQAAAAAAAAAhAAAAAwB55GEAAAACgzOxEQAAAAAAAABBAAAAAgGcQGEAAAADAzOxFQAAAAAAAABRAAAAAgCoDGEAAAADAzOxGQAAAAAAAABhAAAAAoLAfGEAAAADAzGxGQAAAAAAAABxAAAAA4DdIGEAAAACgSEpEQAAAAAAAACBAAAAAAOWkGEAAAABA0EpDQAAAAAAAACJAAAAAIGWqGEAAAABA0EpDQAAAAAAAACRAAAAAQJqpGEAAAACgSEpEQAAAAAAAACZAAAAAoJmZGEAAAADAzGxEQAAAAAAAAChAAAAAABtcGEAAAADAzGxFQAAAAAAAACpAAAAAQOtJGEAAAADAzOxFQAAAAAAAACxAAAAAwFYyGEAAAADAzOxFQAAAAAAAAC5AAAAAAM87GEAAAABA0EpDQAAAAAAAADBAAAAAAAlhGEAAAABA0EpDQAAAAAAAADFAAAAAAE9jGEAAAABA0EpDQAAAAAAAADJAAAAAoMRqGEAAAABA0EpDQAAAAAAAADNAAAAAIGFrGEAAAABA0EpDQAAAAAAAADRAAAAAgBdpGEAAAABA0EpDQAAAAAAAADVAAAAAQONnGEAAAABA0EpDQAAAAAAAADZAAAAA4GFKF0AAAABA0EpDQAAAAAAAADdAAAAAIAlGF0AAAABA0EpDQAAAAAAAADhAAAAAgIonF0AAAABA0EpDQAAAAAAAADlAAAAAQLAlF0AAAABA0EpDQAAAAAAAADpAAAAAQF8lF0AAAABA0EpDQAAAAAAAADtAAAAA4CQnF0AAAABA0EpDQAAAAAAAADxAAAAAAPpNF0AAAABA0EpDQAAAAAAAAD1AAAAAYCZaF0AAAABA0EpDQAAAAAAAAD5AAAAAAIb4F0AAAACAZiY6QAAAAAAAAD9AAAAAwP//F0AAAABAZiY7QAAAAAAAAEBAAAAAQNn/F0AAAABgZiY9QAAAAAAAgEBAAAAAYNT9F0AAAAAAZiY/QAAAAAAAAEFAAAAAwAf2F0AAAAAgMxNAQAAAAAAAgEFAAAAAgGbtF0AAAABAMxNAQAAAAAAAAPj/</stream>
+        </item>
+      </items>
+      <chunks count="13">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>24332</X>
+              <Y>12211</Y>
+              <W>141</W>
+              <H>224</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>24407</X>
+              <Y>12323</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="8">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Replaces the solution path with user defined path.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">b295e6f5-b3ab-4a23-a308-a0f668df1862</item>
+            <item name="Name" type_name="gh_string" type_code="10">Path</item>
+            <item name="NickName" type_name="gh_string" type_code="10">P.</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">36425a3b-7bf3-47ea-a339-f0864055f23d</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>24334</X>
+                  <Y>12213</Y>
+                  <W>58</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>24364.5</X>
+                  <Y>12223</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="1">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Method for optimizing the tool path.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">5fbcc64a-3e04-4f19-b147-df1c0c995d77</item>
+            <item name="Name" type_name="gh_string" type_code="10">Tool-path optimization method</item>
+            <item name="NickName" type_name="gh_string" type_code="10">T.P.O.M.</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">57b45992-4382-40a0-b691-46b7f6b396d5</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>24334</X>
+                  <Y>12233</Y>
+                  <W>58</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>24364.5</X>
+                  <Y>12243</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="2">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Checks the tool-path agains singularity</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">791524bb-d2df-4b8d-af29-ffbf921ca813</item>
+            <item name="Name" type_name="gh_string" type_code="10">Singularity</item>
+            <item name="NickName" type_name="gh_string" type_code="10">S.</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>24334</X>
+                  <Y>12253</Y>
+                  <W>58</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>24364.5</X>
+                  <Y>12263</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="boolean" type_name="gh_bool" type_code="1">false</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="3">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">A value between 0 and 1 which will be multiply by the rotation amount only if the value is greater than the z component of the tool z axis.for example if the z component of z axis of tool is 0.1 the tool is relatively vertical and if the reduction value is set to 0.5 then the rotation amount will be reduced by half</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">f56ce7ba-06e5-4e58-bbf6-dd695b1670eb</item>
+            <item name="Name" type_name="gh_string" type_code="10">Reduction_Factor</item>
+            <item name="NickName" type_name="gh_string" type_code="10">R.F.</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">c3297a07-0c30-4695-b66d-158fd0bc58ab</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>24334</X>
+                  <Y>12273</Y>
+                  <W>58</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>24364.5</X>
+                  <Y>12283</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="number" type_name="gh_double" type_code="6">1</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="4">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">The interval defining the axis 6 rotation in degree. default is [-90,90]</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">e1e430a4-d178-4694-b6f8-60eaccf8f245</item>
+            <item name="Name" type_name="gh_string" type_code="10">Y_Domain</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Y.</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">3c21a581-1bc9-45a9-ae5c-932265315e7a</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>24334</X>
+                  <Y>12293</Y>
+                  <W>58</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>24364.5</X>
+                  <Y>12303</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="Interval" type_name="gh_interval1d" type_code="60">
+                          <A>-90</A>
+                          <B>90</B>
+                        </item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="5">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Controls the resolution of the axes map in Y direction (axis 6 rotation).
+Higher values results in more precise map however takes more time to compute. default is 3. set this value to 0 to fix the axis 6</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">ae22ae31-8c0a-4290-85c9-852fb9e24172</item>
+            <item name="Name" type_name="gh_string" type_code="10">Y_Resolution</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Y.R.</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">7edc70e3-5635-45d9-b850-57a3f036af2c</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>24334</X>
+                  <Y>12313</Y>
+                  <W>58</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>24364.5</X>
+                  <Y>12323</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="number" type_name="gh_int32" type_code="3">3</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="6">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Converts the PTP moves to Axis moves after finding solution. If you wish to modify the ptp moves then you may need to set this flag to false, defualt is true.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">23016568-0a0c-4b78-8233-9ed9c875fc4d</item>
+            <item name="Name" type_name="gh_string" type_code="10">PTPtoAXIS</item>
+            <item name="NickName" type_name="gh_string" type_code="10">PTPtoAXIS</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>24334</X>
+                  <Y>12333</Y>
+                  <W>58</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>24364.5</X>
+                  <Y>12343</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="boolean" type_name="gh_bool" type_code="1">true</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="7">
+          <items count="9">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">List of aixs values that must be filtered in solution</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">db17d2c8-bfad-461c-81d9-5bafe5d4f7b0</item>
+            <item name="Name" type_name="gh_string" type_code="10">Robot Constrain</item>
+            <item name="NickName" type_name="gh_string" type_code="10">R.C</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">495b2f04-9d35-4e9e-bc89-4de37ef91266</item>
+            <item name="Source" index="1" type_name="gh_guid" type_code="9">5275b3c1-7202-4e41-b79b-c995a59a54ee</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">2</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>24334</X>
+                  <Y>12353</Y>
+                  <W>58</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>24364.5</X>
+                  <Y>12363</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="8">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">SubPaths</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">7d37910c-0ad1-4701-87f6-89dea90e7a0a</item>
+            <item name="Name" type_name="gh_string" type_code="10">SubPaths</item>
+            <item name="NickName" type_name="gh_string" type_code="10">S.P.</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>24334</X>
+                  <Y>12373</Y>
+                  <W>58</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>24364.5</X>
+                  <Y>12383</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="number" type_name="gh_int32" type_code="3">1</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="9">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">The interval defining the linear axis movement. default value is  [-8000,0]</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">468306f9-986f-4946-a0ad-ae9beb7b6795</item>
+            <item name="Name" type_name="gh_string" type_code="10">Z_Domain</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Z.</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">54bcaa48-da46-4b6e-98b4-113e0f7edff2</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>24334</X>
+                  <Y>12393</Y>
+                  <W>58</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>24364.5</X>
+                  <Y>12403</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="Interval" type_name="gh_interval1d" type_code="60">
+                          <A>-8000</A>
+                          <B>0</B>
+                        </item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="10">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Controls the resolution of the axes map in Z direction (linear axis).
+Higher values results in more precise map however takes more time to compute. default is 3. set this value to 0 to fix the linear axis</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">b494e8ba-bf8d-4c2d-8264-6837d2f54899</item>
+            <item name="Name" type_name="gh_string" type_code="10">Z_Resolution</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Z.R.</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">9a9f9525-3207-469a-ab84-a5aec4abcdee</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>24334</X>
+                  <Y>12413</Y>
+                  <W>58</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>24364.5</X>
+                  <Y>12423</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="number" type_name="gh_int32" type_code="3">3</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Finds collisions and singularity free solutions for tool-paths </item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">bc95335b-1242-453b-b689-f251af20e219</item>
+            <item name="Name" type_name="gh_string" type_code="10">Tool-path Solver</item>
+            <item name="NickName" type_name="gh_string" type_code="10">T.P.Solv.</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>24422</X>
+                  <Y>12213</Y>
+                  <W>49</W>
+                  <H>220</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>24446.5</X>
+                  <Y>12323</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

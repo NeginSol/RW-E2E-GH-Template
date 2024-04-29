@@ -1,0 +1,77 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">d5967b9f-e8ee-436b-a8ad-29fdcecf32d5</item>
+    <item name="Name" type_name="gh_string" type_code="10">Curve</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="7">
+        <item name="Description" type_name="gh_string" type_code="10">Contains a collection of generic curves</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">240db12a-d366-4b41-be7f-f07b7a3d1b18</item>
+        <item name="Name" type_name="gh_string" type_code="10">Curve</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Crv</item>
+        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+      </items>
+      <chunks count="2">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>23597</X>
+              <Y>21172</Y>
+              <W>50</W>
+              <H>20</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>23622.3</X>
+              <Y>21182.68</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="PersistentData">
+          <items count="1">
+            <item name="Count" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Branch" index="0">
+              <items count="2">
+                <item name="Count" type_name="gh_int32" type_code="3">3</item>
+                <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+              </items>
+              <chunks count="3">
+                <chunk name="Item" index="0">
+                  <items count="3">
+                    <item name="EdgeIndex" type_name="gh_int32" type_code="3">-1</item>
+                    <item name="ON_Data" type_name="gh_bytearray" type_code="20">
+                      <stream length="986">7ZTtT1tlGMYPpWWnLbTdCmNAoyeKhUHpgENbCq3cbaHFmBEcmxtoMjs4hmZ9maWFoJKdzbFkS8Xosg9uM9b4wgeiyQxmcbqs6qKVmOiyTVG/NL7ULX5hJjplY9hzPzydxuwvsPeHc7W/Xrme57qbliliGGY1N5JKUyrLPXZuGw2EI55IKBQJm7hHhehYIBJ22sy81dzK821Wc4uVt7SYOE88GItHBWdYiMei/qCJ64/vCQaGHxYmt0f2CmGnxdLa2t4i2G3DNovFwjcrpFMMGG72CZGQEItOmvsjwclgICx44tFxQZ4zrBsnB6r80eHRwLjAj4SUkX1COByP7hmTj/hjfsnEsqxMuquujmFac3peqS1VFudeaKVHhYJhZMv7ZYxSQXrdXJUx5Wsds5e/6fNdu7T+/M+M7rmi+5b6Tn3w/a3c5xfl5HOdkfn3TMzd7MpJ6tndHBCyJL3PxAgXdzxAOSNp6pU1f0kV5aykGftPyDP6Csp1kj5xZeSWxOEHGeXlknJdYeRiiYryTZIm344gZz7XUm6QFFIDtzFnKc9Rk7PbCT+dz6mVVDRmSc7WdZQbkW/7bRn9926gvB579Yf+wl6VNZQ34P0do8iB30y5Gc/d3ER61eZ5M/IQ4Zk38zk85neOrUicMygob8O9/W5DLh4oodyC+7liQp4ZYCi3Yv5bhHMb89yG/vRnuAfxVTXl7djXlCb8q/weAM9t9CHPLBStcZHwAy9gPvNl3u/CPfx6hNxzluaLhKcnyH3qWOp3Y870VrLPzhbqR55M15B9Zjuo34P8UDXyDHRSP3KxZhH3yfH3UH83+scJz3jLKe/Bc4/cIN+LU05zkKeGSC/uTi+vpHD9P728d+nlu0sv5Kk46SXe6dWL/stVyJOefC/C920g3LCLg3/+Jr9WP319R/VS11OyidDHZQycnVvYKNewULl46UQ9qwPvlOILN1sOHyZ2PznAboI//rz/3JjWAFMHz6RSuW4/Hj4RSLO1ILffTp0uNcLjjthLem09JA+u39ujbYCzCnZLld4MfTHN4OvKZlj2P//yipKHlWuxebmqDYzZT88oVRbo/mj2faXKCs1H+48Pq21w8d0ZQVC3w4M3horfUwAsus+1Lk4DyB2mum8VLrjgetH53bQLShsrOg6p3FB52P5M4qgbHtn12lRC5YGOxEmBn/HAG43ZhF3TDYOOaq1b0wPzDdmhwZkeaChe6BvSeOGXnSPCYzNe2OK66lfofXChKTRXdswHTVfb3inT98InnofmXcd6QfonTK8ed6zul4l0d2qmMIUpTGEK8/+YvwE=</stream>
+                    </item>
+                    <item name="RefID" type_name="gh_guid" type_code="9">00000000-0000-0000-0000-000000000000</item>
+                  </items>
+                </chunk>
+                <chunk name="Item" index="1">
+                  <items count="3">
+                    <item name="EdgeIndex" type_name="gh_int32" type_code="3">-1</item>
+                    <item name="ON_Data" type_name="gh_bytearray" type_code="20">
+                      <stream length="1199">7dT/T1tVFADwRy1SKF/Kt8FwascYQymE0hXGhPRsHUNWKIUNWjczofACHaWdhbJ0zvBwRt10G1+MJaARMoOLQ7ZMUHEBCsQsui1OpxsbypeNL6INEyzMtQu179734t9gwvnh3ebTk3POfe++R3gRBOH2BL3S4c/xXNQFFTqDUW6sqjIaRMIi0lStMxoyUhMlKYnJEsnWlERxikQqFgnlZn2N2URmGEhzjalELxKqzFq9rlRBWvYZK0lDhlSanLxNTKallqZKpVJJkjfdZQMqnphFGqvIGpMlUWXUW/Q6Ayk3m2pJrifBpxY39CsxlVboaklJWZWv8TBpMJhN2mpuWUlNCZ3E4/E49KyCLQSR7FkHfYP8fZ/w/AiiL794EwTHWcchvvPG+3K5OUQYs8fZn28rs+ZvBg/OEILjXtF/KT+8PPbY838jkysQEWxkg+di6weXzG8kRKSsDwbse+gVVrHbv6IYp5C3E+XIu2bi2HwFvU4eOI/r5JwQMPnIhSXduE4/xTiRg/r++TnOl7JOIRfOBthlYW9tjrw/wWXyc6HYXVDXPDEri/NXXKynFmU4H/nZ+HHsn9UxTihpH+pcQZ6k6WDzkaffSptDnrnK5uehPk7BDN1X03P9SWYe5NRwrQPt15EfwsyjQqvrHeT2N0jGKeTF7XXI9UP7Gbchh6CGadSXv+pk+uZDw5i1b0g1JSNUkR8Uz1VgB9qPLPJpH/275wf1sUFcn/aHfdkBuI679R+cb8tHfb85MY7meXZvODNnAeob5ZpA89ibI7ADckLscc9+R2e+Zu4zhb1tFbnmwTqCmR851Yq95QzrxF703FfdE2ieuRE3Mz/y4js7JtFz3Egw+RRyQmVdRH2nrvKY+ti/9MfnYegqe072ofMwzMc+xjogn+zzwefwFOsUcpt4gxPt9+wltk4h8lQe8i5LF1unEBzdobzyyw40jyzAm6lTCAd3lXVylhbRvn48zJwTG/LevkXsdiN7fopon3+Ns4TO4b3TjAPt0wPfJyFPctxnz2ER3TfuzY5ldJ8rlUxfWxG9tsdY8fuy/hY7vxr5x9hF46wD9ogW7Amj7H1ALjzahl3zDPuealB+G3Z7wEbGAblwgMkf2BQM/30jCOKYNpZPZ90QV21u8+GBY9HnpFIggOQ/PhpWC8Jg4en4a2pBJASv693+Ol8I1c4eXUdgDMRwfj/UERgLd4/PGjoD48ArYUvjtcDnYdD+Cfd2eiLMTwUuPJaK4aenNr3tm5IMF8NGKvkpW8Gpjl4+rUmFCy8VqEMq0mAq/Kg1vGI7rFzYX90tS4cbouF4UySAxE8u054HiJW1aOXkTmh4+YxfwqOd0CH6wi/BIoehaO+7qY/kULrj3JF0yy6oLtdmujIz4eT1nJHekN2gMDWO9Dbthhd+dV/pDcmCCd6CdbkpCxreuxK+0vQinGtPqUlozganYPTgaPMeUFsEr4yGKuB47tL7d5oVMHNpqv9eaA50Nz43HRCRC8F5n3IVUUp497cgH0WrEg68+jBAEZUH6w89mLO25gGfq3IpclWQn/Wtb84pFdBf8vqmbTfddRyKvdd8Yi3WYi3WYi3W4v8Q/wI=</stream>
+                    </item>
+                    <item name="RefID" type_name="gh_guid" type_code="9">00000000-0000-0000-0000-000000000000</item>
+                  </items>
+                </chunk>
+                <chunk name="Item" index="2">
+                  <items count="3">
+                    <item name="EdgeIndex" type_name="gh_int32" type_code="3">-1</item>
+                    <item name="ON_Data" type_name="gh_bytearray" type_code="20">
+                      <stream length="1100">7dT9T1tlFAfwS2m3djCpZLow2WgQee0YtJTXQA8vLcQhARyOvYgt5ToqpR2l7cBEKNNmm2g0IAlTMqobLmHEqLMSg4RGt2XJslk2wC1AB4yXgC5O1B90C9ie57n+Cf7U88Nt++nJ957neW7LBDEMs+kr/6u/Qnm+y8HKer3RVGhqbDQZpZJXWHOz3mTMzUiWpyfL5PK09OTUdLkiVSoptBosVjOba2StFrPWIJWUW2sNet1+tvWAqYE15ioUMllmKpuVoctQKBTyFIH/LpEYnlzMmhpZi7k1udxkaDXojWyh1Wxj+b6GrTZyw21as65eb2PldY0i03HWaLSaa5v5dVqL1t8kFAp5/lnFcQwj872OicJCRcG+N2H+S4+AYXj/tPOYMwKyrsebPGYHXePyxM9lxat3nh5bYsRvB0U/KusbmX7i+76C9ooTaSNjr4bPRkcm57ODwPdp7jtRIqC70f/6kTjcDKLOHPI7W5eD7r61hTqgu05dJjm91xOI29FVpt08zJF1UYfDfq+yBPPxc35DPO1HZ6P46M6QPupudNWurehQ0UadOYI5W/qDsX9dxOWjL3V4cR7JV5V0Tju669oCmTOtjVsv+uSBOXRn+Tvceo/6XaAkDhEd3HqJX/PgfZkubh47ujVqnHjWGDc/uit8Fd1+r4mb/1XMaVgj/Us3qQPxahWud278IpdPfKIE3b3u4PKJawBdstzF5df43RFD3L32LpePXtV6iez/y7/F0Xx06xJxe0sol4+uWJxG1wx8TvuZ13DfbosEeN/uUupu9CppPrpmcCOW9mv83tNJPZZP+yXogvZskjMYRh3QVaeekPlLX6KuQX/mdTc539Zq7nzRr87MojPSdupOdMc+eo7nuPN1ow/UUNdz5ztHcnbMkXM5cZ7bTy3Of5K4894qdQm6o+dPdM2nl7h9RmeLPib940CfTw3JqfqSPIejzdz86FXPzqDbo+3c/CR/jbhG7eDmR59cpP1JJ7n5iZ8lz7nz9zOJ8N9v3lfKtqaet5hHSv7xmfsHfVMap4Y+WA4XwuL57fHdYjE8NZ6SEVUZCc5fogzaJAmY/z5cnieNhrj5loKPlDEQ84PYVjwYC8+lZaolQ/HwyQshXycMJcJQR1SJdEgKEGn7tfu9fVBj2qWrvJ4Cz4vurOXdSAV1xJ7OQz/JYPT0GwtlHjkMV1/M8XrS4PTdb9x/eBRQf6J5+LEnHdwviiPmZzJgCjbk+2czYaK/pEKzkAXfJsU9rFnOhpBx5QXdSi54+oOOHVvJg/X3+462rChhdOPKwLAF4Htvxdibunxo2pPfO/0gH3Ym5bTM6gpAuHE70vugAKYu84XenkKwjXWmh+8sAm9hwV1+bxF8uFaaYNutgtrte7+45VLBjW1X3PcValCf21s/71LDQ4eRt6AoBtnZhdUlVzH4/4mPjFy9sNnOs3N7G8IEKlCBClSgAvV/1L8=</stream>
+                    </item>
+                    <item name="RefID" type_name="gh_guid" type_code="9">00000000-0000-0000-0000-000000000000</item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

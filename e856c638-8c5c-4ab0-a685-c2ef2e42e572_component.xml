@@ -1,0 +1,156 @@
+<chunk name="Object" index="0">
+  <items count="3">
+    <item name="GUID" type_name="gh_guid" type_code="9">3cd923ab-373a-43fe-a14c-67b091260999</item>
+    <item name="Lib" type_name="gh_guid" type_code="9">713fc0cc-8d34-4024-96f8-1a1edc8e378a</item>
+    <item name="Name" type_name="gh_string" type_code="10">PTP Movement - KUKA|prc</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="7">
+        <item name="Description" type_name="gh_string" type_code="10">Robot target defined through a plane. The robot will in the most efficient manner to the provided plane.</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">e856c638-8c5c-4ab0-a685-c2ef2e42e572</item>
+        <item name="Name" type_name="gh_string" type_code="10">PTP Movement - KUKA|prc</item>
+        <item name="NickName" type_name="gh_string" type_code="10">PTP MOVE</item>
+        <item name="extaxenabled" type_name="gh_bool" type_code="1">false</item>
+        <item name="interpolation" type_name="gh_string" type_code="10">C_PTP</item>
+      </items>
+      <chunks count="2">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>35751</X>
+              <Y>9955</Y>
+              <W>185</W>
+              <H>83</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>35851</X>
+              <Y>9997</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="ParameterData">
+          <items count="6">
+            <item name="InputCount" type_name="gh_int32" type_code="3">3</item>
+            <item name="InputId" index="0" type_name="gh_guid" type_code="9">4f8984c4-7c7a-4d69-b0a2-183cbb330d20</item>
+            <item name="InputId" index="1" type_name="gh_guid" type_code="9">3ede854e-c753-40eb-84cb-b48008f14fd4</item>
+            <item name="InputId" index="2" type_name="gh_guid" type_code="9">2e3ab970-8545-46bb-836c-1c11e5610bce</item>
+            <item name="OutputCount" type_name="gh_int32" type_code="3">1</item>
+            <item name="OutputId" index="0" type_name="gh_guid" type_code="9">9fe6fd0d-de26-473a-bb30-5ec95cb4775a</item>
+          </items>
+          <chunks count="4">
+            <chunk name="InputParam" index="0">
+              <items count="8">
+                <item name="Description" type_name="gh_string" type_code="10">Robot target defined as a plane</item>
+                <item name="InstanceGuid" type_name="gh_guid" type_code="9">df90e56b-eba9-4af1-a6ea-bd2342b30238</item>
+                <item name="Mutable" type_name="gh_bool" type_code="1">false</item>
+                <item name="Name" type_name="gh_string" type_code="10">Target as Plane</item>
+                <item name="NickName" type_name="gh_string" type_code="10">PLN</item>
+                <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+                <item name="Source" index="0" type_name="gh_guid" type_code="9">e59b71a0-888f-42e3-aa14-0173b8999761</item>
+                <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Attributes">
+                  <items count="2">
+                    <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                      <X>35753</X>
+                      <Y>9957</Y>
+                      <W>83</W>
+                      <H>26</H>
+                    </item>
+                    <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                      <X>35796</X>
+                      <Y>9970.167</Y>
+                    </item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="InputParam" index="1">
+              <items count="7">
+                <item name="Description" type_name="gh_string" type_code="10">Separate STATUS and TURN with an empty space. You can omit TURN and only provide a three binary numbers for STATUS. Status defines the robot's posture using three binary numbers, e.g. 010 or 110. Defaults to 010. Turn consists of 6 binary numbers for each axis, starting from A6-A1. A value of 0 signifies that an axis is &gt;=0. E.g. 010010</item>
+                <item name="InstanceGuid" type_name="gh_guid" type_code="9">85aa23e2-2cdf-4e69-9e48-1c583fb02817</item>
+                <item name="Mutable" type_name="gh_bool" type_code="1">false</item>
+                <item name="Name" type_name="gh_string" type_code="10">Status / Turn</item>
+                <item name="NickName" type_name="gh_string" type_code="10">STATUS / TURN</item>
+                <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+                <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Attributes">
+                  <items count="2">
+                    <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                      <X>35753</X>
+                      <Y>9983</Y>
+                      <W>83</W>
+                      <H>26</H>
+                    </item>
+                    <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                      <X>35796</X>
+                      <Y>9996.5</Y>
+                    </item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="InputParam" index="2">
+              <items count="7">
+                <item name="Description" type_name="gh_string" type_code="10">Robot speed defined in percent</item>
+                <item name="InstanceGuid" type_name="gh_guid" type_code="9">b096d47f-b449-437d-b80a-0de456fe515b</item>
+                <item name="Mutable" type_name="gh_bool" type_code="1">false</item>
+                <item name="Name" type_name="gh_string" type_code="10">Speed</item>
+                <item name="NickName" type_name="gh_string" type_code="10">VEL</item>
+                <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+                <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Attributes">
+                  <items count="2">
+                    <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                      <X>35753</X>
+                      <Y>10009</Y>
+                      <W>83</W>
+                      <H>27</H>
+                    </item>
+                    <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                      <X>35796</X>
+                      <Y>10022.83</Y>
+                    </item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="OutputParam" index="0">
+              <items count="6">
+                <item name="Description" type_name="gh_string" type_code="10">KUKA|prc command containing a PTP movement</item>
+                <item name="InstanceGuid" type_name="gh_guid" type_code="9">f9b8f6c0-25c1-4abd-b4e8-f25dbec94acf</item>
+                <item name="Name" type_name="gh_string" type_code="10">KUKA|prc Command</item>
+                <item name="NickName" type_name="gh_string" type_code="10">COMMAND</item>
+                <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+                <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Attributes">
+                  <items count="2">
+                    <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                      <X>35866</X>
+                      <Y>9957</Y>
+                      <W>68</W>
+                      <H>79</H>
+                    </item>
+                    <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                      <X>35900</X>
+                      <Y>9996.5</Y>
+                    </item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

@@ -1,0 +1,52 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">318dacd7-9073-4ede-b043-a0c132eb77e0</item>
+    <item name="Name" type_name="gh_string" type_code="10">MD Slider</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="11">
+        <item name="Description" type_name="gh_string" type_code="10">A multidimensional slider</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">e80eeedd-ce75-41b0-8906-88091f31f532</item>
+        <item name="Name" type_name="gh_string" type_code="10">MD Slider</item>
+        <item name="NickName" type_name="gh_string" type_code="10">MD Slider</item>
+        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+        <item name="SliderMode" type_name="gh_int32" type_code="3">0</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+        <item name="slider_value" type_name="gh_point3d" type_code="51">
+          <X>0.5</X>
+          <Y>0.5</Y>
+          <Z>0.5</Z>
+        </item>
+        <item name="x_domain" type_name="gh_interval1d" type_code="60">
+          <A>0</A>
+          <B>1</B>
+        </item>
+        <item name="y_domain" type_name="gh_interval1d" type_code="60">
+          <A>0</A>
+          <B>1</B>
+        </item>
+        <item name="z_domain" type_name="gh_interval1d" type_code="60">
+          <A>0</A>
+          <B>1</B>
+        </item>
+      </items>
+      <chunks count="1">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>5346</X>
+              <Y>18315</Y>
+              <W>100</W>
+              <H>100</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>5346.293</X>
+              <Y>18315.5</Y>
+            </item>
+          </items>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

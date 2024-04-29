@@ -1,0 +1,80 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">f31d8d7a-7536-4ac8-9c96-fde6ecda4d0a</item>
+    <item name="Name" type_name="gh_string" type_code="10">Cluster</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="7">
+        <item name="ClusterDocument" type_name="gh_bytearray" type_code="20">
+          <stream length="2509">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</stream>
+        </item>
+        <item name="Description" type_name="gh_string" type_code="10">Contains a cluster of Grasshopper components</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">6bc6e447-e77d-409e-b27a-1eaec44a13d6</item>
+        <item name="Name" type_name="gh_string" type_code="10">Cluster</item>
+        <item name="NickName" type_name="gh_string" type_code="10">R2 ACTION POS</item>
+        <item name="PreviewDocument" type_name="gh_bool" type_code="1">false</item>
+      </items>
+      <chunks count="3">
+        <chunk name="ParamMap">
+          <items count="3">
+            <item name="Count" type_name="gh_int32" type_code="3">1</item>
+            <item name="Key" index="0" type_name="gh_guid" type_code="9">14b27a6a-5aca-4254-83a3-136277f916cc</item>
+            <item name="Value" index="0" type_name="gh_guid" type_code="9">fb648996-766e-4b7f-a5ab-c7831e23ebcc</item>
+          </items>
+        </chunk>
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>31695</X>
+              <Y>24108</Y>
+              <W>99</W>
+              <H>117</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>31709</X>
+              <Y>24167</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="ParameterData">
+          <items count="3">
+            <item name="InputCount" type_name="gh_int32" type_code="3">0</item>
+            <item name="OutputCount" type_name="gh_int32" type_code="3">1</item>
+            <item name="OutputId" index="0" type_name="gh_guid" type_code="9">9fe6fd0d-de26-473a-bb30-5ec95cb4775a</item>
+          </items>
+          <chunks count="1">
+            <chunk name="OutputParam" index="0">
+              <items count="7">
+                <item name="Access" type_name="gh_int32" type_code="3">1</item>
+                <item name="Description" type_name="gh_string" type_code="10">KUKA|prc command containing an AXIS movement</item>
+                <item name="InstanceGuid" type_name="gh_guid" type_code="9">14b27a6a-5aca-4254-83a3-136277f916cc</item>
+                <item name="Name" type_name="gh_string" type_code="10">KUKA|prc Command</item>
+                <item name="NickName" type_name="gh_string" type_code="10">COMMAND</item>
+                <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+                <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Attributes">
+                  <items count="2">
+                    <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                      <X>31724</X>
+                      <Y>24110</Y>
+                      <W>68</W>
+                      <H>113</H>
+                    </item>
+                    <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                      <X>31758</X>
+                      <Y>24166.5</Y>
+                    </item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

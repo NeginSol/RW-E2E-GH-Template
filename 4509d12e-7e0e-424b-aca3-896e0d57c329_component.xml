@@ -1,0 +1,138 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">d6b43673-55dd-4e2f-95c4-6c69a14513a6</item>
+    <item name="Name" type_name="gh_string" type_code="10">Merge Faces</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">Merge all adjacent co-planar faces in a brep</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">4509d12e-7e0e-424b-aca3-896e0d57c329</item>
+        <item name="Name" type_name="gh_string" type_code="10">Merge Faces</item>
+        <item name="NickName" type_name="gh_string" type_code="10">FMerge</item>
+      </items>
+      <chunks count="5">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>6699</X>
+              <Y>17660</Y>
+              <W>71</W>
+              <H>64</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>6729</X>
+              <Y>17692</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Brep to simplify</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">c035711d-72cf-42f3-8032-b277082ebaa1</item>
+            <item name="Name" type_name="gh_string" type_code="10">Brep</item>
+            <item name="NickName" type_name="gh_string" type_code="10">B</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">3771cc71-5b94-49f4-b5f8-cc9709f34d2d</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>6701</X>
+                  <Y>17662</Y>
+                  <W>13</W>
+                  <H>60</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>6709</X>
+                  <Y>17692</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Simplified Brep</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">2de75940-f7bb-4bac-9501-d6e995a6ad1d</item>
+            <item name="Name" type_name="gh_string" type_code="10">Breps</item>
+            <item name="NickName" type_name="gh_string" type_code="10">B</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>6744</X>
+                  <Y>17662</Y>
+                  <W>24</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>6756</X>
+                  <Y>17672</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="1">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Number of faces before simplification</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">c94c2e7f-0d7f-4cd5-8863-4a535427e67a</item>
+            <item name="Name" type_name="gh_string" type_code="10">Before</item>
+            <item name="NickName" type_name="gh_string" type_code="10">N0</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>6744</X>
+                  <Y>17682</Y>
+                  <W>24</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>6756</X>
+                  <Y>17692</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="2">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Number of faces after simplification</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">ae91291a-5e86-436a-a792-cd8239d40521</item>
+            <item name="Name" type_name="gh_string" type_code="10">After</item>
+            <item name="NickName" type_name="gh_string" type_code="10">N1</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>6744</X>
+                  <Y>17702</Y>
+                  <W>24</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>6756</X>
+                  <Y>17712</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

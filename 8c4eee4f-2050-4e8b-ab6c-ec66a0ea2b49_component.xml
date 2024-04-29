@@ -1,0 +1,90 @@
+<chunk name="Object" index="0">
+  <items count="3">
+    <item name="GUID" type_name="gh_guid" type_code="9">11a46c3d-20c1-4a57-b704-bce0ea919cef</item>
+    <item name="Lib" type_name="gh_guid" type_code="9">713fc0cc-8d34-4024-96f8-1a1edc8e378a</item>
+    <item name="Name" type_name="gh_string" type_code="10">KRL Code - KUKA|prc</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="6">
+        <item name="Description" type_name="gh_string" type_code="10">The KRL Code component will take the provided text and write it at the according position into the KRL file. Only provide valid KUKA code, as the entire file will otherwise fail to execute at the robot. For more details on KRL refer e.g. to the KUKA Expert Programming Manual (PDF via Google).</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">8c4eee4f-2050-4e8b-ab6c-ec66a0ea2b49</item>
+        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
+        <item name="Name" type_name="gh_string" type_code="10">KRL Code - KUKA|prc</item>
+        <item name="NickName" type_name="gh_string" type_code="10">KRL CODE</item>
+      </items>
+      <chunks count="3">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>25133</X>
+              <Y>12233</Y>
+              <W>127</W>
+              <H>79</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>25175</X>
+              <Y>12273</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="8">
+            <item name="Description" type_name="gh_string" type_code="10">Input text will be written into the KRL file by the KUKA|prc Core component.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">c3dd93e1-f5e7-4a31-a924-332ac176178c</item>
+            <item name="Locked" type_name="gh_bool" type_code="1">true</item>
+            <item name="Name" type_name="gh_string" type_code="10">KRL as Text</item>
+            <item name="NickName" type_name="gh_string" type_code="10">KRL</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">bbb28e0c-9e79-475a-af9c-e30826a0bac3</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>25135</X>
+                  <Y>12235</Y>
+                  <W>25</W>
+                  <H>75</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>25149</X>
+                  <Y>12272.5</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">KUKA|prc command with a custom KRL command</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">7f0d79d7-f109-48af-9254-8db5ea198a75</item>
+            <item name="Locked" type_name="gh_bool" type_code="1">true</item>
+            <item name="Name" type_name="gh_string" type_code="10">KUKA|prc Command</item>
+            <item name="NickName" type_name="gh_string" type_code="10">COMMAND</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>25190</X>
+                  <Y>12235</Y>
+                  <W>68</W>
+                  <H>75</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>25224</X>
+                  <Y>12272.5</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

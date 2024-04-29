@@ -1,0 +1,330 @@
+<chunk name="Object" index="0">
+  <items count="3">
+    <item name="GUID" type_name="gh_guid" type_code="9">038498ff-17b9-4207-9bbb-9095ecc8bf66</item>
+    <item name="Lib" type_name="gh_guid" type_code="9">713fc0cc-8d34-4024-96f8-1a1edc8e378a</item>
+    <item name="Name" type_name="gh_string" type_code="10">Analysis - KUKA|prc</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">Analysis data that exposes axis values and other data e.g. for automatic optimization.</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">8d250f77-516a-49f5-b164-c692e8c464be</item>
+        <item name="Name" type_name="gh_string" type_code="10">Analysis - KUKA|prc</item>
+        <item name="NickName" type_name="gh_string" type_code="10">ANALYSIS</item>
+      </items>
+      <chunks count="12">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>38014</X>
+              <Y>11701</Y>
+              <W>185</W>
+              <H>204</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>38086</X>
+              <Y>11803</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Data from the Core component's analysis output.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">271e89a7-ca22-4259-8f99-4e35fe946bd9</item>
+            <item name="Name" type_name="gh_string" type_code="10">KUKA|prc Analysis Data</item>
+            <item name="NickName" type_name="gh_string" type_code="10">ANALYSIS</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">9a668213-299c-4978-81ad-8d615aca3231</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>38016</X>
+                  <Y>11703</Y>
+                  <W>55</W>
+                  <H>200</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>38045</X>
+                  <Y>11803</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="8">
+            <item name="Access" type_name="gh_int32" type_code="3">2</item>
+            <item name="Description" type_name="gh_string" type_code="10">Axis values calculated by the KUKA|prc kinematic solver</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">27b77e07-4e54-466a-8412-4e6d735268d6</item>
+            <item name="Name" type_name="gh_string" type_code="10">Robot Axis Values</item>
+            <item name="NickName" type_name="gh_string" type_code="10">AXIS VALUES</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SimplifyData" type_name="gh_bool" type_code="1">true</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>38101</X>
+                  <Y>11703</Y>
+                  <W>96</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>38141</X>
+                  <Y>11713</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="1">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">2</item>
+            <item name="Description" type_name="gh_string" type_code="10">If the value is 1, KUKA|prc has calculated a collision at the particular robot joint.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">471f74d5-5bfd-44eb-abf6-2f3696fd4792</item>
+            <item name="Name" type_name="gh_string" type_code="10">Robot Collision Check</item>
+            <item name="NickName" type_name="gh_string" type_code="10">COLLISION</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>38101</X>
+                  <Y>11723</Y>
+                  <W>96</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>38141</X>
+                  <Y>11733</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="2">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">2</item>
+            <item name="Description" type_name="gh_string" type_code="10">If the value is 1, KUKA|prc has calculated that the robot cannot reach a given position.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">35be2392-3c97-449a-b4e2-b3929a485d55</item>
+            <item name="Name" type_name="gh_string" type_code="10">Robot Reachability  Check</item>
+            <item name="NickName" type_name="gh_string" type_code="10">REACHABILITY</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>38101</X>
+                  <Y>11743</Y>
+                  <W>96</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>38141</X>
+                  <Y>11753</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="3">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">2</item>
+            <item name="Description" type_name="gh_string" type_code="10">Command ID of each simulated command.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">ff54d228-723a-4ec0-9a28-f17ad77fa2d2</item>
+            <item name="Name" type_name="gh_string" type_code="10">Command ID</item>
+            <item name="NickName" type_name="gh_string" type_code="10">CMD ID</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>38101</X>
+                  <Y>11763</Y>
+                  <W>96</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>38141</X>
+                  <Y>11773</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="4">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">2</item>
+            <item name="Description" type_name="gh_string" type_code="10">Command ID of each simulated command.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">5b7ad48c-71db-4af1-a5fd-44ec49f3f3e5</item>
+            <item name="Name" type_name="gh_string" type_code="10">Time Value</item>
+            <item name="NickName" type_name="gh_string" type_code="10">TIME</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>38101</X>
+                  <Y>11783</Y>
+                  <W>96</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>38141</X>
+                  <Y>11793</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="5">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">2</item>
+            <item name="Description" type_name="gh_string" type_code="10">Planes for each movement command.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">24e09133-01c9-4491-bb61-ca3f7d1de8e3</item>
+            <item name="Name" type_name="gh_string" type_code="10">Planes</item>
+            <item name="NickName" type_name="gh_string" type_code="10">PLN</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>38101</X>
+                  <Y>11803</Y>
+                  <W>96</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>38141</X>
+                  <Y>11813</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="6">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">2</item>
+            <item name="Description" type_name="gh_string" type_code="10">Tag for each command (if assigned).</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">a296fb14-6ed9-4020-9ecd-6fa2aba55806</item>
+            <item name="Name" type_name="gh_string" type_code="10">Command Tags</item>
+            <item name="NickName" type_name="gh_string" type_code="10">TAG</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>38101</X>
+                  <Y>11823</Y>
+                  <W>96</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>38141</X>
+                  <Y>11833</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="7">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">2</item>
+            <item name="Description" type_name="gh_string" type_code="10">IO state of each simulated command.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">af3cf94f-948b-4f12-a1cb-de1a76ec08f8</item>
+            <item name="Name" type_name="gh_string" type_code="10">IO State</item>
+            <item name="NickName" type_name="gh_string" type_code="10">IO</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>38101</X>
+                  <Y>11843</Y>
+                  <W>96</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>38141</X>
+                  <Y>11853</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="8">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Index of the currently displayed element.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">f6258d80-f6b9-4ec2-b2c8-ab4d6fa47f96</item>
+            <item name="Name" type_name="gh_string" type_code="10">Index</item>
+            <item name="NickName" type_name="gh_string" type_code="10">IDX</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>38101</X>
+                  <Y>11863</Y>
+                  <W>96</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>38141</X>
+                  <Y>11873</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="9">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Generated KRL code - enable in Code settings first.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">e677014b-28b1-43fb-8ddc-10305c9c51ed</item>
+            <item name="Name" type_name="gh_string" type_code="10">KRL</item>
+            <item name="NickName" type_name="gh_string" type_code="10">KRL</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>38101</X>
+                  <Y>11883</Y>
+                  <W>96</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>38141</X>
+                  <Y>11893</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

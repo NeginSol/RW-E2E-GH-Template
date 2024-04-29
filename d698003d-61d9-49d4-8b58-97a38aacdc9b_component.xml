@@ -1,0 +1,53 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">7f5c6c55-f846-4a08-9c9a-cfdc285cc6fe</item>
+    <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="13">
+        <item name="Bold" type_name="gh_bool" type_code="1">true</item>
+        <item name="Ca" type_name="gh_drawing_pointf" type_code="31">
+          <X>15007.75</X>
+          <Y>38097.59</Y>
+        </item>
+        <item name="Cb" type_name="gh_drawing_pointf" type_code="31">
+          <X>15729.04</X>
+          <Y>38097.59</Y>
+        </item>
+        <item name="Cc" type_name="gh_drawing_pointf" type_code="31">
+          <X>15729.04</X>
+          <Y>38154.31</Y>
+        </item>
+        <item name="Cd" type_name="gh_drawing_pointf" type_code="31">
+          <X>15007.75</X>
+          <Y>38154.31</Y>
+        </item>
+        <item name="Description" type_name="gh_string" type_code="10">A quick note</item>
+        <item name="Font" type_name="gh_string" type_code="10">Microsoft Sans Serif</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">d698003d-61d9-49d4-8b58-97a38aacdc9b</item>
+        <item name="Italic" type_name="gh_bool" type_code="1">false</item>
+        <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Scribble</item>
+        <item name="Size" type_name="gh_single" type_code="5">60</item>
+        <item name="Text" type_name="gh_string" type_code="10">rotate and cutting the rest</item>
+      </items>
+      <chunks count="1">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>15002.75</X>
+              <Y>38092.59</Y>
+              <W>731.2891</W>
+              <H>66.71875</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>15007.75</X>
+              <Y>38097.59</Y>
+            </item>
+          </items>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>
